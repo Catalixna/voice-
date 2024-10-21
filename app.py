@@ -31,7 +31,7 @@ client1.on_message = on_message
 st.markdown("<h1 style='text-align: center; color: #b76373;'>INTERFACES MULTIMODALES</h1>", unsafe_allow_html=True)
 st.subheader("Control por voz")
 
-image = Image.open('voice.jpg')
+image = Image.open('voice_ctrl.jpg')
 
 st.image(image, width=200)
 
