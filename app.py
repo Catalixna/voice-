@@ -28,17 +28,17 @@ client1.on_message = on_message
 
 
 
-st.title("INTERFACES MULTIMODALES")
-st.subheader("CONTROL POR VOZ")
+st.markdown("<h1 style='text-align: center; color: #b76373;'>INTERFACES MULTIMODALES</h1>", unsafe_allow_html=True)
+st.subheader("Control por voz")
 
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('voice.jpg')
 
 st.image(image, width=200)
 
 
 
 
-st.write("Toca el Botón y habla ")
+st.write("_Toca el Botón y luego habla._ ")
 
 stt_button = Button(label=" Inicio ", width=200)
 
